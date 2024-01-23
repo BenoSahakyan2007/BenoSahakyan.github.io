@@ -1,0 +1,206 @@
+$aboutcolor: rgb(24,38,52);
+*{
+    font-family: cinzel,serif;
+    line-height: 1.8em;
+    font-weight: 400;
+}
+
+#body1{
+    img {
+        width: 100%;
+    }
+    header{
+        height: 200px;
+        background-color: $aboutcolor;
+        #nav2 {
+            padding-top: 3%;
+            padding-left: 3%;
+            background-color: $aboutcolor;
+           ul {
+            padding-left: 4%;
+            li {
+                padding-left: 17px;
+            }
+            a {
+                color: #fff;
+                transition: 0.4s;
+                &:hover{
+                    color:rgb(38, 120, 201) ;
+                }
+             }
+          }
+        }
+    }
+    #sec1 {
+        margin-top: 100px;
+        padding: 40px;
+        .aboutDiv {
+            // height: 250px;
+            padding: 40px;
+            background-color: #85B7ED;
+            position: absolute;
+            top: 35%;
+            left: 25%;
+            text-transform: uppercase;
+            h3 {
+                font-size: 55px;
+                font-weight: 500;
+            }
+            @media screen and (max-width: 1100px) {
+                h3 {
+                    font-size: 45px;
+                }
+            }
+            p {
+                font-weight: 600;
+                font-size: 17px;
+            }
+            @media screen and (max-width: 1100px) {
+                p {
+                    font-size: 15px;
+                }
+            }
+            @media screen and (max-width: 950px) {
+                p {
+                    font-size: 13px;
+                }
+            }
+        }
+        @media screen and (max-width: 768px) {
+            .aboutDiv {
+                position: absolute;
+                top: 17%;
+                left: 0%;
+                padding: 20px;
+            }
+        }
+        .about-div {
+            background-image: url(../img/about1.jpg);
+            height: 580px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        @media screen and (max-width: 768px) {
+            .about-div {
+                height: 450px;
+            }
+        }
+        @media screen and (max-width: 500px) {
+            .about-div {
+                height: 350px;
+            }
+        }
+    }
+    @media screen and (max-width: 768px) {
+        #sec1{
+            margin-top: 0;
+            padding: 0;
+         }
+       }
+    #sec2 {
+        padding: 40px;
+            .sec2p{
+                color: rgb(24,38,52);
+                font-size: 17.5px;
+            }
+            @media screen and (max-width: 768px) {
+                .sec2p {
+                    font-size: 15px;
+                }
+            }
+        }
+       
+    @media screen and (max-width: 768px) {
+        #sec2 {
+            padding: 20px;
+        }
+    }
+    #sec3 {
+        .aboutimg {
+            background-image: url(../img/about3.jpg);
+            height: 600px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        @media screen and (max-width: 1100px) {
+            .aboutimg {
+                height: 450px;
+            }
+        }
+        @media screen and (max-width: 850px) {
+            .aboutimg {
+                height: 395px;
+            }
+        }
+        @media screen and (max-width: 500px) {
+            .aboutimg {
+                height: 300px;
+            }
+        }
+        .about-div1 {
+            padding: 200px;
+            background-color: #B7CADE;
+        }
+        @media screen and (max-width: 1300px) {
+            .about-div1 {
+                padding: 170px;
+                background-color: #B7CADE;
+            }
+        }
+        @media screen and (max-width: 1100px) {
+            .about-div1 {
+                padding: 100px;
+            }
+        }
+        @media screen and (max-width: 850px) {
+            .about-div1 {
+                padding: 60px 60px 20px 60px;
+            }
+        }
+    }
+    footer {
+       #footernav {
+        padding-top: 3%;
+        padding-left: 3%;
+        background-color: $aboutcolor;
+       ul {
+        padding-left: 4%;
+        li {
+            padding-left: 17px;
+        }
+        a {
+            color: #fff;
+            transition: 0.4s;
+            &:hover{
+                color:rgb(38, 120, 201) ;
+            }
+         }
+         @media screen and (max-width: 992px) {
+            li {
+              padding-left: 0;
+            }
+          }
+      }
+      .iconli {
+        padding-left: 200px;
+     }
+     @media screen and (max-width: 992px) {
+       .iconli {
+             padding-left: 0;
+         }
+       }
+      @media screen and (max-width: 992px) {
+        ul {
+          padding-left: 0%;
+        }
+      }
+       }
+       @media screen and (max-width: 992px) {
+        #footernav {
+          padding-left: 0%;
+        }
+      }
+    }
+}

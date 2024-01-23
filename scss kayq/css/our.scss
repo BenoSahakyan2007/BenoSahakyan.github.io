@@ -1,0 +1,264 @@
+$ourcolor: rgb(24,38,52);
+*{
+    font-family: cinzel sans-serif;
+}
+#body3{
+    img {
+        width: 100%;
+    }
+    
+    header{
+        // background-image: url(../img/our1.jpg);
+        // height: 700px;
+        // background-repeat: no-repeat;
+        // background-size: cover;
+        // background-attachment: fixed;
+        #nav4 {
+            padding-top: 3%;
+            padding-left: 3%;
+            background-color: $ourcolor;
+           ul {
+            padding-left: 4%;
+            li {
+                padding-left: 17px;
+            }
+            a {
+                color: #fff;
+                transition: 0.4s;
+                &:hover{
+                    color:rgb(38, 120, 201) ;
+                }
+             }
+             @media screen and (max-width: 992px) {
+              li {
+                padding-left: 0%;
+              }
+            }
+          }
+          @media screen and (max-width: 992px) {
+            ul {
+              padding-left: 0%;
+            }
+          }
+        }
+    }
+    .ourDiv {
+        // height: 250px;
+        padding: 40px;
+        background-color: #85B7ED;
+        position: absolute;
+        top: 25%;
+        left: 25%;
+        text-transform: uppercase;
+        h3 {
+            font-size: 55px;
+            font-weight: 500;
+        }
+        @media screen and (max-width: 1000px) {
+            h3 {
+                font-size: 50px;
+            }
+          }
+          @media screen and (max-width: 700px) {
+            h3 {
+                font-size: 37px;
+            }
+          }
+          @media screen and (max-width: 500px) {
+            h3 {
+                font-size: 30px;
+            }
+          }
+        p {
+            font-weight: 600;
+            font-size: 17px;
+        }
+        @media screen and (max-width: 768px) {
+            p {
+                font-size: 14px;
+            }
+          }
+          @media screen and (max-width: 500px) {
+            p {
+                font-size: 12px;
+            }
+          }
+    }
+    @media screen and (max-width: 768px) {
+        .ourDiv {
+           top: 17%;
+           left: 0%;
+        }
+      }
+    .oursec1 {
+        margin-top: 150px;
+        padding: 30px;
+        .ourimg {
+        background-image: url(../img/our1.jpg);
+        height: 550px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    @media screen and (max-width: 900px) {
+        .ourimg {
+           height: 500px;
+        }
+      }
+      @media screen and (max-width: 700px) {
+        .ourimg {
+           height: 450px;
+        }
+      }
+      @media screen and (max-width: 500px) {
+        .ourimg {
+           height: 300px;
+        }
+      }
+    }
+    @media screen and (max-width: 768px) {
+      .oursec1 {
+         padding: 0;
+      }
+    }
+    .oursec2 {
+        
+        h2 {
+            font-size: 32px;
+        }
+        @media screen and (max-width: 900px) {
+            h2 {
+               font-size: 24px;
+            }
+          }
+        @media screen and (max-width: 500px) {
+            h2 {
+               font-size: 18px;
+            }
+          }
+        img {
+            border-radius: 0;
+        }
+        .card1 {
+            border-radius: 0 !important;
+        }
+        @media screen and (max-width: 768px) {
+            .card1 {
+               margin: 0 auto;
+            }
+          }
+    }
+    a {
+        text-decoration: none;
+        color: #182634;
+    }
+    button {
+        padding: 7px 60px;
+        border-radius: 30px;
+        transition: .4s;
+        &:hover {
+            color: black;
+            background-color: #fff;
+        }
+    }
+    .ourimg1 {
+        background-image: url(../img/our8.jpg);
+        height: 692px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    @media screen and (max-width: 900px) {
+        .ourimg1 {
+           height: 470px;
+        }
+      }
+    @media screen and (max-width: 768px) {
+        .ourimg1 {
+           height: 450px;
+        }
+      }
+    @media screen and (max-width: 500px) {
+        .ourimg1 {
+           height: 300px;
+        }
+      }
+    .our-div {
+        padding: 200px;
+        background-color: #B7CADE;
+        p {
+            font-size: 24px;
+        }
+        @media screen and (max-width: 1070px) {
+            p   {
+               font-size: 20px;
+            }
+          }
+          @media screen and (max-width: 500px) {
+            p   {
+               font-size: 16px;
+            }
+          }
+    }
+    @media screen and (max-width: 1350px) {
+        .our-div  {
+           padding: 150px;
+        }
+      }
+      @media screen and (max-width: 1070px) {
+        .our-div  {
+           padding: 130px 50px 50px 50px;
+        }
+      }
+      @media screen and (max-width: 768px) {
+        .our-div  {
+           padding: 165px;
+        }
+      }
+
+
+
+      @media screen and (max-width: 500px) {
+        .our-div  {
+           padding: 50px;
+        }
+      }
+    footer {
+        #nav5 {
+            padding-top: 3%;
+            padding-left: 3%;
+            background-color: $ourcolor;
+           ul {
+            padding-left: 4%;
+            li {
+                padding-left: 17px;
+            }
+            a {
+                color: #fff;
+                transition: 0.4s;
+                &:hover{
+                    color:rgb(38, 120, 201) ;
+                }
+            }
+            @media screen and (max-width: 992px) {
+              li {
+                padding-left: 0;
+              }
+            }
+         }
+         .iconli {
+          padding-left: 200px;
+       }
+       @media screen and (max-width: 992px) {
+         .iconli {
+               padding-left: 0;
+           }
+         }
+         @media screen and (max-width: 992px) {
+          ul {
+            padding-left: 0%;
+          }
+        }
+       }
+    }
+}

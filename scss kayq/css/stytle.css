@@ -1,0 +1,326 @@
+* {
+  font-family: cinzel sans-serif;
+}
+
+body header {
+  background-image: url(../img/1.jpg);
+  height: 120vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+body header #nav {
+  padding-top: 3%;
+  padding-left: 3%;
+  background-color: rgb(24, 38, 52);
+}
+body header #nav ul {
+  padding-left: 4%;
+}
+body header #nav ul li {
+  padding-left: 17px;
+}
+body header #nav ul a {
+  color: #fff;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+body header #nav ul a:hover {
+  color: rgb(38, 120, 201);
+}
+@media screen and (max-width: 992px) {
+  body header #nav ul li {
+    padding-left: 0%;
+  }
+}
+@media screen and (max-width: 992px) {
+  body header #nav #nav ul li {
+    padding-left: 0% !important;
+  }
+}
+body header .positionDiv {
+  padding: 40px;
+  background-color: #85B7ED;
+  text-transform: uppercase;
+}
+body header .positionDiv h3 {
+  font-size: 40px;
+  font-weight: 600;
+}
+@media screen and (max-width: 1210px) {
+  body header .positionDiv h3 {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 800px) {
+  body header .positionDiv h3 {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 500px) {
+  body header .positionDiv h3 {
+    font-size: 23px;
+  }
+}
+body header .positionDiv p {
+  font-size: 18px;
+  font-weight: 600;
+}
+@media screen and (max-width: 1210px) {
+  body header .positionDiv p {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 500px) {
+  body header .positionDiv p {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 1210px) {
+  body header .positionDiv {
+    padding: 20px;
+  }
+}
+body .btn {
+  padding: 7px 55px;
+  background-color: rgb(24, 38, 52);
+  color: #fff;
+  border: none;
+  border: 1px solid rgb(24, 38, 52);
+  border-radius: 30px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+body .btn:hover {
+  color: #000000;
+  background-color: transparent;
+  border-color: rgb(24, 38, 52);
+}
+@media screen and (max-width: 1000px) {
+  body .btn {
+    padding: 6px 45px;
+  }
+}
+@media screen and (max-width: 880px) {
+  body .btn {
+    padding: 4px 35px;
+  }
+}
+@media screen and (max-width: 500px) {
+  body .btn {
+    padding: 3px 20px;
+  }
+}
+body .sec1 {
+  margin-top: 150px;
+  padding: 50px;
+}
+body .sec1 .sec1col3 {
+  padding-top: 10%;
+  padding-left: 4%;
+  background-color: #B7CADE;
+}
+body .sec1 .sec1col3 p {
+  line-height: 1.6em;
+  font-size: 18px;
+}
+@media screen and (max-width: 1150px) {
+  body .sec1 .sec1col3 p {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 500px) {
+  body .sec1 .sec1col3 p {
+    font-size: 12px;
+  }
+}
+body .sec1 .sec1col3 span {
+  font-size: 35px;
+}
+@media screen and (max-width: 1140px) {
+  body .sec1 .sec1col3 span {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 500px) {
+  body .sec1 .sec1col3 span {
+    font-size: 23px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  body .sec1 .sec1col3 {
+    padding-left: 2%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  body .sec1 .sec1col3 {
+    padding-top: 7%;
+  }
+}
+@media screen and (max-width: 768px) {
+  body .sec1 .sec1col3 {
+    padding: 20px;
+  }
+}
+body .sec1 .video {
+  height: 758px;
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  body .sec1 .video {
+    height: 500px;
+  }
+}
+@media screen and (max-width: 600px) {
+  body .sec1 .video {
+    height: 450px;
+  }
+}
+@media screen and (max-width: 500px) {
+  body .sec1 .video {
+    height: 400px;
+  }
+}
+@media screen and (max-width: 450px) {
+  body .sec1 .video {
+    height: 350px;
+  }
+}
+@media screen and (max-width: 500px) {
+  body .sec1 {
+    padding: 25px;
+  }
+}
+body .sec2 {
+  margin-top: 60px;
+  background-color: rgb(24, 38, 52);
+}
+body .sec2 h3 {
+  color: rgb(38, 120, 201);
+  text-align: center;
+}
+body .sec2 img {
+  width: 100%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+body .sec2 img:hover {
+  opacity: 0.6;
+}
+body .sec2 button {
+  padding: 8px 25px;
+  border-radius: 35px;
+  border: none;
+  border: 1px solid rgb(38, 120, 201);
+  color: rgb(38, 120, 201);
+  background-color: transparent;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+body .sec2 button:hover {
+  border-color: rgb(27, 83, 140);
+  color: rgb(27, 81, 135);
+}
+@media screen and (max-width: 500px) {
+  body .sec2 button {
+    padding: 4px 16px;
+  }
+}
+body .sec2 p {
+  color: #fff;
+}
+body .sec2 hr {
+  border: 2px solid rgb(114, 184, 255);
+}
+body .sec2 span a {
+  font-size: 22px;
+  text-decoration: none;
+  color: rgb(49, 152, 255);
+}
+body .sec2 .col6 {
+  padding: 160px 0 0 0 !important;
+  margin: 0 !important;
+}
+body .sec2 .col6-1 {
+  padding: 200px;
+  background-color: #85B7ED;
+}
+body .sec2 .col6-1 p {
+  color: #000000;
+}
+body .sec2 .col6-1 .tab-list .active {
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 30px;
+}
+body .sec2 .col6-1 .tab-content {
+  display: none;
+}
+body .sec2 .col6-1 .show {
+  display: block;
+}
+body .sec2 h2 {
+  color: #000000;
+  line-height: 1.6;
+}
+@media screen and (max-width: 1460px) {
+  body .sec2 .col6-1 {
+    padding: 150px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  body .sec2 .col6-1 {
+    padding: 100px;
+  }
+}
+@media screen and (max-width: 900px) {
+  body .sec2 .col6-1 {
+    padding: 50px;
+  }
+}
+body .imgfooter {
+  background-image: url(../img/6.jpg);
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+body footer {
+  background-color: rgb(24, 38, 52);
+}
+body footer #nav1 {
+  padding-top: 3%;
+  padding-left: 3%;
+  background-color: rgb(24, 38, 52);
+}
+body footer #nav1 ul {
+  padding-left: 10%;
+}
+body footer #nav1 ul li {
+  padding-left: 17px;
+}
+@media screen and (max-width: 992px) {
+  body footer #nav1 ul li {
+    padding-left: 0% !important;
+  }
+}
+body footer #nav1 ul a {
+  color: #fff;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+body footer #nav1 ul a:hover {
+  color: rgb(38, 120, 201);
+}
+body footer #nav1 ul .iconli {
+  padding-left: 200px;
+}
+@media screen and (max-width: 992px) {
+  body footer #nav1 ul .iconli {
+    padding-left: 0;
+  }
+}
+@media screen and (max-width: 992px) {
+  body footer #nav1 ul {
+    padding-left: 0% !important;
+  }
+}

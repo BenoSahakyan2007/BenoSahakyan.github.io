@@ -1,0 +1,115 @@
+$bookcolor: rgb(24,38,52);
+*{
+    font-family: cinzel sans-serif;
+}
+body{
+    img {
+        width: 100%;
+    }
+    h2 {
+        font-size: 50px;
+        font-weight: 600;
+    }
+    @media screen and (max-width: 1024px) {
+        h2 {
+         font-size: 45px;
+        }
+      }
+      @media screen and (max-width: 800px) {
+        h2 {
+         font-size: 35px;
+        }
+      }
+      @media screen and (max-width: 550px) {
+        h2 {
+         font-size: 30px;
+        }
+      }
+    header{
+        height: 200px;
+        background-color: $bookcolor;
+        #nav8 {
+            padding: 3%;
+            background-color: $bookcolor;
+             ul{
+                padding-left: 8%;
+                li {
+                    padding-left: 17px;
+                    a {
+                        color: #ffffff;
+                        transition: 0.4s;
+                        &:hover{
+                            color:rgb(38, 120, 201);
+                         
+                        }
+                    }
+                }  
+            }
+       }
+    }
+    
+    .bookdiv {
+        background-color: #B5B7ED;
+        // height: 350px;
+        padding: 50px;
+        margin-bottom: 30px;
+        // position: absolute;
+        // right: 35%;
+        
+    }
+    @media screen and (max-width: 1200px) {
+        .bookdiv {
+           padding: 20px;
+        }
+      }
+    button {
+        padding: 7px 16px;
+        border: none;
+        border: 1px solid $bookcolor;
+        border-radius: 30px;
+        background-color: $bookcolor;
+        color: #ffffff;
+        transition: .4s;
+        &:hover {
+            color: #bdb9b9;
+        }
+    }
+    footer {
+        #nav9 {
+            padding: 3%;
+            background-color: $bookcolor;
+             ul{
+                padding-left: 8%;
+                li {
+                    padding-left: 17px;
+                    a {
+                        color: #ffffff;
+                        transition: 0.4s;
+                        &:hover{
+                            color:rgb(38, 120, 201);
+                         
+                        }
+                    }
+                }  
+                .iconli {
+                    padding-left: 200px;
+                 }
+                 @media screen and (max-width: 992px) {
+                   .iconli {
+                         padding-left: 0;
+                     }
+                   }
+                @media screen and (max-width: 992px) {
+                    li {
+                      padding-left: 0;
+                    }
+                  }
+            }
+            @media screen and (max-width: 992px) {
+                ul {
+                  padding-left: 0%;
+                }
+              }
+       }
+    }
+}

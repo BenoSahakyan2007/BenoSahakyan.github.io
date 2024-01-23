@@ -1,0 +1,86 @@
+* {
+  font-family: cinzel sans-serif;
+}
+
+#body4 img {
+  width: 100%;
+  cursor: pointer;
+}
+#body4 header {
+  height: 170px;
+  background-color: rgb(24, 38, 52);
+}
+#body4 header #nav5 {
+  padding-top: 3%;
+  padding-left: 3%;
+  background-color: rgb(24, 38, 52);
+}
+#body4 header #nav5 ul {
+  padding-left: 4%;
+}
+#body4 header #nav5 ul li {
+  padding-left: 17px;
+}
+#body4 header #nav5 ul a {
+  color: #fff;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+#body4 header #nav5 ul a:hover {
+  color: rgb(38, 120, 201);
+}
+#body4 .bible h5 {
+  cursor: pointer;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+#body4 .bible h5:hover {
+  color: rgba(7, 114, 255, 0.975);
+}
+#body4 .bible p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5;
+  font-family: cinzel sans-serif;
+  color: gray;
+  cursor: pointer;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+#body4 .bible p:hover {
+  color: rgba(7, 114, 255, 0.975);
+}
+#body4 .bible hr {
+  width: 100%;
+  margin-top: 100px;
+  border: 1px solid rgb(103, 102, 102);
+}
+#body4 h1 {
+  font-size: 50px;
+}
+#body4 .firstp {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5;
+  font-family: cinzel sans-serif;
+  color: rgb(111, 109, 109);
+}
+#body4 footer #nav6 {
+  padding-top: 3%;
+  padding-left: 3%;
+  background-color: rgb(24, 38, 52);
+}
+#body4 footer #nav6 ul {
+  padding-left: 10%;
+}
+#body4 footer #nav6 ul li {
+  padding-left: 35px;
+}
+#body4 footer #nav6 ul a {
+  color: #fff;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+#body4 footer #nav6 ul a:hover {
+  color: rgb(38, 120, 201);
+}

@@ -1,0 +1,184 @@
+* {
+  font-family: cinzel sans-serif;
+}
+
+body header {
+  height: 950px;
+  background-color: rgb(24, 38, 52);
+}
+body header #nav {
+  padding-top: 3%;
+  padding-left: 3%;
+  background-color: rgb(24, 38, 52);
+}
+body header #nav ul {
+  padding-left: 4%;
+}
+body header #nav ul li {
+  padding-left: 17px;
+}
+body header #nav ul a {
+  color: #fff;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+body header #nav ul a:hover {
+  color: rgb(38, 120, 201);
+}
+body header .header-img {
+  background-image: url(../img/1.jpg);
+  height: 689px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+body header .icondiv i {
+  color: #fff;
+  margin-top: 40px;
+  cursor: pointer;
+}
+body .sec1 {
+  padding: 50px;
+}
+body .sec1 .sec1col3 {
+  height: 758.6px;
+  padding-top: 10%;
+  padding-left: 4%;
+  background-color: #B7CADE;
+}
+body .sec1 .sec1col3 p {
+  line-height: 1.6em;
+  font-size: 18px;
+}
+body .sec1 .sec1col3 span {
+  font-size: 35px;
+}
+body .sec1 .positionDiv {
+  height: 350px;
+  padding: 30px 30px 30px 50px;
+  background-color: #85B7ED;
+  position: absolute;
+  top: 15%;
+  right: 15%;
+  text-transform: uppercase;
+}
+body .sec1 .positionDiv h3 {
+  font-size: 40px;
+  font-weight: 600;
+}
+body .sec1 .positionDiv p {
+  font-size: 18px;
+  font-weight: 600;
+}
+body .sec1 .positionDiv .btn {
+  padding: 7px 55px;
+  background-color: rgb(24, 38, 52);
+  color: #fff;
+  border: none;
+  border: 1px solid rgb(24, 38, 52);
+  border-radius: 30px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+body .sec1 .positionDiv .btn:hover {
+  color: #000000;
+  background-color: transparent;
+}
+body .sec2 {
+  margin-top: 60px;
+  background-color: rgb(24, 38, 52);
+}
+body .sec2 h3 {
+  color: rgb(38, 120, 201);
+  text-align: center;
+}
+body .sec2 img {
+  width: 100%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+body .sec2 img:hover {
+  opacity: 0.6;
+}
+body .sec2 button {
+  padding: 8px 25px;
+  border-radius: 35px;
+  border: none;
+  border: 1px solid rgb(38, 120, 201);
+  color: rgb(38, 120, 201);
+  background-color: transparent;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+body .sec2 button:hover {
+  border-color: rgb(27, 83, 140);
+  color: rgb(27, 81, 135);
+}
+body .sec2 p {
+  color: #fff;
+}
+body .sec2 hr {
+  border: 2px solid rgb(114, 184, 255);
+}
+body .sec2 span a {
+  font-size: 22px;
+  text-decoration: none;
+  color: rgb(49, 152, 255);
+}
+body .sec2 .col6 {
+  padding: 160px 0 0 0 !important;
+  margin: 0 !important;
+}
+body .sec2 .col6-1 {
+  padding: 200px;
+  background-color: #85B7ED;
+}
+body .sec2 .col6-1 p {
+  color: #000000;
+}
+body .sec2 .col6-1 .tab-list .active {
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 30px;
+}
+body .sec2 .col6-1 .tab-content {
+  display: none;
+}
+body .sec2 .col6-1 .show {
+  display: block;
+}
+body .sec2 h2 {
+  color: #000000;
+  line-height: 1.6;
+}
+body .sec3 {
+  margin-top: 100px;
+}
+body .imgfooter {
+  background-image: url(../img/6.jpg);
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+body footer {
+  background-color: rgb(24, 38, 52);
+}
+body footer #nav1 {
+  padding-top: 3%;
+  padding-left: 3%;
+  background-color: rgb(24, 38, 52);
+}
+body footer #nav1 ul {
+  padding-left: 10%;
+}
+body footer #nav1 ul li {
+  padding-left: 17px;
+}
+body footer #nav1 ul a {
+  color: #fff;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+body footer #nav1 ul a:hover {
+  color: rgb(38, 120, 201);
+}

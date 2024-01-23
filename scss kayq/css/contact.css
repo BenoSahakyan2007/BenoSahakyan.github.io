@@ -1,0 +1,266 @@
+* {
+  font-family: cinzel sans-serif;
+  text-transform: uppercase;
+}
+
+#body5 header {
+  height: 170px;
+  background-color: rgb(24, 38, 52);
+}
+#body5 header #nav6 {
+  padding-top: 3%;
+  padding-left: 3%;
+  background-color: rgb(24, 38, 52);
+}
+#body5 header #nav6 ul {
+  padding-left: 4%;
+}
+#body5 header #nav6 ul li {
+  padding-left: 17px;
+}
+#body5 header #nav6 ul a {
+  color: #fff;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+#body5 header #nav6 ul a:hover {
+  color: rgb(38, 120, 201);
+}
+@media screen and (max-width: 992px) {
+  #body5 header #nav6 ul li {
+    padding-left: 0;
+  }
+}
+@media screen and (max-width: 992px) {
+  #body5 header #nav6 ul {
+    padding-left: 0%;
+  }
+}
+#body5 .contactdiv {
+  padding: 40px;
+  background-color: #85B7ED;
+  position: absolute;
+  top: 35%;
+  left: 23%;
+  text-transform: uppercase;
+}
+#body5 .contactdiv h3 {
+  font-size: 55px;
+  font-weight: 500;
+}
+@media screen and (max-width: 768px) {
+  #body5 .contactdiv h3 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 550px) {
+  #body5 .contactdiv h3 {
+    font-size: 28px;
+  }
+}
+#body5 .contactdiv p {
+  font-weight: 600;
+  font-size: 17px;
+}
+@media screen and (max-width: 992px) {
+  #body5 .contactdiv p {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 830px) {
+  #body5 .contactdiv p {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #body5 .contactdiv {
+    position: absolute;
+    top: 30%;
+    left: 0%;
+  }
+}
+@media screen and (max-width: 550px) {
+  #body5 .contactdiv {
+    padding: 15px;
+  }
+}
+#body5 .contactSec {
+  margin-top: 150px;
+  padding: 30px;
+}
+#body5 .contactSec .contactImg {
+  background-image: url(../img/contact1.jpg);
+  height: 580px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+@media screen and (max-width: 768px) {
+  #body5 .contactSec .contactImg {
+    height: 450px;
+  }
+}
+@media screen and (max-width: 500px) {
+  #body5 .contactSec .contactImg {
+    height: 350px;
+  }
+}
+@media screen and (max-width: 350px) {
+  #body5 .contactSec .contactImg {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #body5 .contactSec {
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 500px) {
+  #body5 .contactSec {
+    padding: 15px;
+  }
+}
+@media screen and (max-width: 300px) {
+  #body5 .contactSec {
+    padding: 10px;
+  }
+}
+#body5 form {
+  width: 100%;
+  padding: 30px;
+}
+#body5 form h3 {
+  text-align: center;
+}
+#body5 form input {
+  width: 100%;
+  border-radius: none;
+  padding: 15px 0;
+}
+#body5 form input:hover {
+  border: 3px solid #000;
+}
+@media screen and (max-width: 1000px) {
+  #body5 form input {
+    padding: 10px 0;
+  }
+}
+@media screen and (max-width: 500px) {
+  #body5 form input {
+    padding: 5px 0;
+  }
+}
+#body5 form textarea {
+  width: 100%;
+}
+#body5 form textarea:hover {
+  border: 4px solid #000;
+}
+#body5 form button {
+  padding: 7px 60px;
+  border-radius: 30px;
+  background-color: #000;
+  color: #fff;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+#body5 form button:hover {
+  color: black;
+  background-color: #fff;
+}
+@media screen and (max-width: 600px) {
+  #body5 form {
+    padding: 20px 0;
+  }
+}
+#body5 .contactImg1 {
+  background-image: url(../img/contact2.jpg);
+  height: 587px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+@media screen and (max-width: 768px) {
+  #body5 .contactImg1 {
+    height: 500px;
+  }
+}
+@media screen and (max-width: 600px) {
+  #body5 .contactImg1 {
+    height: 400px;
+  }
+}
+@media screen and (max-width: 500px) {
+  #body5 .contactImg1 {
+    height: 350px;
+  }
+}
+#body5 .contactDiv {
+  padding: 150px 250px;
+  background-color: #B7CADE;
+}
+#body5 .contactDiv p {
+  font-size: 20px;
+}
+@media screen and (max-width: 768px) {
+  #body5 .contactDiv p {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 1410px) {
+  #body5 .contactDiv {
+    padding: 130px 150px;
+  }
+}
+@media screen and (max-width: 1030px) {
+  #body5 .contactDiv {
+    padding: 110px 100px;
+  }
+}
+@media screen and (max-width: 850px) {
+  #body5 .contactDiv {
+    padding: 90px 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #body5 .contactDiv {
+    padding: 90px 50px;
+  }
+}
+#body5 footer #nav7 {
+  padding-top: 3%;
+  padding-left: 5%;
+  background-color: rgb(24, 38, 52);
+}
+#body5 footer #nav7 ul {
+  padding-left: 15%;
+}
+#body5 footer #nav7 ul li {
+  padding-left: 17px;
+}
+#body5 footer #nav7 ul a {
+  color: #fff;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+#body5 footer #nav7 ul a:hover {
+  color: rgb(38, 120, 201);
+}
+@media screen and (max-width: 992px) {
+  #body5 footer #nav7 ul li {
+    padding-left: 0;
+  }
+}
+#body5 footer #nav7 .iconli {
+  padding-left: 200px;
+}
+@media screen and (max-width: 992px) {
+  #body5 footer #nav7 .iconli {
+    padding-left: 0;
+  }
+}
+@media screen and (max-width: 992px) {
+  #body5 footer #nav7 ul {
+    padding-left: 0%;
+  }
+}

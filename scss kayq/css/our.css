@@ -1,0 +1,248 @@
+* {
+  font-family: cinzel sans-serif;
+}
+
+#body3 img {
+  width: 100%;
+}
+#body3 header #nav4 {
+  padding-top: 3%;
+  padding-left: 3%;
+  background-color: rgb(24, 38, 52);
+}
+#body3 header #nav4 ul {
+  padding-left: 4%;
+}
+#body3 header #nav4 ul li {
+  padding-left: 17px;
+}
+#body3 header #nav4 ul a {
+  color: #fff;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+#body3 header #nav4 ul a:hover {
+  color: rgb(38, 120, 201);
+}
+@media screen and (max-width: 992px) {
+  #body3 header #nav4 ul li {
+    padding-left: 0%;
+  }
+}
+@media screen and (max-width: 992px) {
+  #body3 header #nav4 ul {
+    padding-left: 0%;
+  }
+}
+#body3 .ourDiv {
+  padding: 40px;
+  background-color: #85B7ED;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  text-transform: uppercase;
+}
+#body3 .ourDiv h3 {
+  font-size: 55px;
+  font-weight: 500;
+}
+@media screen and (max-width: 1000px) {
+  #body3 .ourDiv h3 {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 700px) {
+  #body3 .ourDiv h3 {
+    font-size: 37px;
+  }
+}
+@media screen and (max-width: 500px) {
+  #body3 .ourDiv h3 {
+    font-size: 30px;
+  }
+}
+#body3 .ourDiv p {
+  font-weight: 600;
+  font-size: 17px;
+}
+@media screen and (max-width: 768px) {
+  #body3 .ourDiv p {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 500px) {
+  #body3 .ourDiv p {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #body3 .ourDiv {
+    top: 17%;
+    left: 0%;
+  }
+}
+#body3 .oursec1 {
+  margin-top: 150px;
+  padding: 30px;
+}
+#body3 .oursec1 .ourimg {
+  background-image: url(../img/our1.jpg);
+  height: 550px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+@media screen and (max-width: 900px) {
+  #body3 .oursec1 .ourimg {
+    height: 500px;
+  }
+}
+@media screen and (max-width: 700px) {
+  #body3 .oursec1 .ourimg {
+    height: 450px;
+  }
+}
+@media screen and (max-width: 500px) {
+  #body3 .oursec1 .ourimg {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #body3 .oursec1 {
+    padding: 0;
+  }
+}
+#body3 .oursec2 h2 {
+  font-size: 32px;
+}
+@media screen and (max-width: 900px) {
+  #body3 .oursec2 h2 {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 500px) {
+  #body3 .oursec2 h2 {
+    font-size: 18px;
+  }
+}
+#body3 .oursec2 img {
+  border-radius: 0;
+}
+#body3 .oursec2 .card1 {
+  border-radius: 0 !important;
+}
+@media screen and (max-width: 768px) {
+  #body3 .oursec2 .card1 {
+    margin: 0 auto;
+  }
+}
+#body3 a {
+  text-decoration: none;
+  color: #182634;
+}
+#body3 button {
+  padding: 7px 60px;
+  border-radius: 30px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+#body3 button:hover {
+  color: black;
+  background-color: #fff;
+}
+#body3 .ourimg1 {
+  background-image: url(../img/our8.jpg);
+  height: 692px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+@media screen and (max-width: 900px) {
+  #body3 .ourimg1 {
+    height: 470px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #body3 .ourimg1 {
+    height: 450px;
+  }
+}
+@media screen and (max-width: 500px) {
+  #body3 .ourimg1 {
+    height: 300px;
+  }
+}
+#body3 .our-div {
+  padding: 200px;
+  background-color: #B7CADE;
+}
+#body3 .our-div p {
+  font-size: 24px;
+}
+@media screen and (max-width: 1070px) {
+  #body3 .our-div p {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 500px) {
+  #body3 .our-div p {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 1350px) {
+  #body3 .our-div {
+    padding: 150px;
+  }
+}
+@media screen and (max-width: 1070px) {
+  #body3 .our-div {
+    padding: 130px 50px 50px 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #body3 .our-div {
+    padding: 165px;
+  }
+}
+@media screen and (max-width: 500px) {
+  #body3 .our-div {
+    padding: 50px;
+  }
+}
+#body3 footer #nav5 {
+  padding-top: 3%;
+  padding-left: 3%;
+  background-color: rgb(24, 38, 52);
+}
+#body3 footer #nav5 ul {
+  padding-left: 4%;
+}
+#body3 footer #nav5 ul li {
+  padding-left: 17px;
+}
+#body3 footer #nav5 ul a {
+  color: #fff;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+#body3 footer #nav5 ul a:hover {
+  color: rgb(38, 120, 201);
+}
+@media screen and (max-width: 992px) {
+  #body3 footer #nav5 ul li {
+    padding-left: 0;
+  }
+}
+#body3 footer #nav5 .iconli {
+  padding-left: 200px;
+}
+@media screen and (max-width: 992px) {
+  #body3 footer #nav5 .iconli {
+    padding-left: 0;
+  }
+}
+@media screen and (max-width: 992px) {
+  #body3 footer #nav5 ul {
+    padding-left: 0%;
+  }
+}

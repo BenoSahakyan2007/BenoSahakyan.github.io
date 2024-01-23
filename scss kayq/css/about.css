@@ -1,0 +1,199 @@
+* {
+  font-family: cinzel, serif;
+  line-height: 1.8em;
+  font-weight: 400;
+}
+
+#body1 img {
+  width: 100%;
+}
+#body1 header {
+  height: 200px;
+  background-color: rgb(24, 38, 52);
+}
+#body1 header #nav2 {
+  padding-top: 3%;
+  padding-left: 3%;
+  background-color: rgb(24, 38, 52);
+}
+#body1 header #nav2 ul {
+  padding-left: 4%;
+}
+#body1 header #nav2 ul li {
+  padding-left: 17px;
+}
+#body1 header #nav2 ul a {
+  color: #fff;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+#body1 header #nav2 ul a:hover {
+  color: rgb(38, 120, 201);
+}
+#body1 #sec1 {
+  margin-top: 100px;
+  padding: 40px;
+}
+#body1 #sec1 .aboutDiv {
+  padding: 40px;
+  background-color: #85B7ED;
+  position: absolute;
+  top: 35%;
+  left: 25%;
+  text-transform: uppercase;
+}
+#body1 #sec1 .aboutDiv h3 {
+  font-size: 55px;
+  font-weight: 500;
+}
+@media screen and (max-width: 1100px) {
+  #body1 #sec1 .aboutDiv h3 {
+    font-size: 45px;
+  }
+}
+#body1 #sec1 .aboutDiv p {
+  font-weight: 600;
+  font-size: 17px;
+}
+@media screen and (max-width: 1100px) {
+  #body1 #sec1 .aboutDiv p {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 950px) {
+  #body1 #sec1 .aboutDiv p {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #body1 #sec1 .aboutDiv {
+    position: absolute;
+    top: 17%;
+    left: 0%;
+    padding: 20px;
+  }
+}
+#body1 #sec1 .about-div {
+  background-image: url(../img/about1.jpg);
+  height: 580px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+@media screen and (max-width: 768px) {
+  #body1 #sec1 .about-div {
+    height: 450px;
+  }
+}
+@media screen and (max-width: 500px) {
+  #body1 #sec1 .about-div {
+    height: 350px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #body1 #sec1 {
+    margin-top: 0;
+    padding: 0;
+  }
+}
+#body1 #sec2 {
+  padding: 40px;
+}
+#body1 #sec2 .sec2p {
+  color: rgb(24, 38, 52);
+  font-size: 17.5px;
+}
+@media screen and (max-width: 768px) {
+  #body1 #sec2 .sec2p {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #body1 #sec2 {
+    padding: 20px;
+  }
+}
+#body1 #sec3 .aboutimg {
+  background-image: url(../img/about3.jpg);
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+@media screen and (max-width: 1100px) {
+  #body1 #sec3 .aboutimg {
+    height: 450px;
+  }
+}
+@media screen and (max-width: 850px) {
+  #body1 #sec3 .aboutimg {
+    height: 395px;
+  }
+}
+@media screen and (max-width: 500px) {
+  #body1 #sec3 .aboutimg {
+    height: 300px;
+  }
+}
+#body1 #sec3 .about-div1 {
+  padding: 200px;
+  background-color: #B7CADE;
+}
+@media screen and (max-width: 1300px) {
+  #body1 #sec3 .about-div1 {
+    padding: 170px;
+    background-color: #B7CADE;
+  }
+}
+@media screen and (max-width: 1100px) {
+  #body1 #sec3 .about-div1 {
+    padding: 100px;
+  }
+}
+@media screen and (max-width: 850px) {
+  #body1 #sec3 .about-div1 {
+    padding: 60px 60px 20px 60px;
+  }
+}
+#body1 footer #footernav {
+  padding-top: 3%;
+  padding-left: 3%;
+  background-color: rgb(24, 38, 52);
+}
+#body1 footer #footernav ul {
+  padding-left: 4%;
+}
+#body1 footer #footernav ul li {
+  padding-left: 17px;
+}
+#body1 footer #footernav ul a {
+  color: #fff;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+#body1 footer #footernav ul a:hover {
+  color: rgb(38, 120, 201);
+}
+@media screen and (max-width: 992px) {
+  #body1 footer #footernav ul li {
+    padding-left: 0;
+  }
+}
+#body1 footer #footernav .iconli {
+  padding-left: 200px;
+}
+@media screen and (max-width: 992px) {
+  #body1 footer #footernav .iconli {
+    padding-left: 0;
+  }
+}
+@media screen and (max-width: 992px) {
+  #body1 footer #footernav ul {
+    padding-left: 0%;
+  }
+}
+@media screen and (max-width: 992px) {
+  #body1 footer #footernav {
+    padding-left: 0%;
+  }
+}

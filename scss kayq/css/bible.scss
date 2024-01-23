@@ -1,0 +1,228 @@
+$biblecolor: rgb(24,38,52);
+*{
+    font-family: cinzel sans-serif;
+}
+#body4{
+    img {
+        width: 100%;
+        cursor: pointer;
+    }
+    header{
+        height: 170px;
+        background-color: $biblecolor;
+        #nav5 {
+            padding-top: 3%;
+            padding-left: 3%;
+            background-color: $biblecolor;
+           ul {
+            padding-left: 4%;
+            li {
+                padding-left: 17px;
+            }
+            a {
+                color: #fff;
+                transition: 0.4s;
+                &:hover{
+                    color:rgb(38, 120, 201) ;
+                }
+             }
+             @media screen and (max-width: 992px) {
+               li {
+                   padding-left: 0;
+               }
+             }
+          }
+          @media screen and (max-width: 992px) {
+            ul {
+                padding-left: 0;
+            }
+          }
+        }
+    }
+   #biblesec {
+    padding: 50px;
+    .bible{
+        h5 {
+            font-size: 20px;
+            cursor: pointer;
+            transition: .4s;
+            &:hover {
+                color: rgba(7, 114, 255, 0.975);
+            }
+        }
+        @media screen and (max-width: 1200px) {
+            h5{
+               font-size: 17px;
+            }
+          }
+        p {
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 1.5;
+            font-family: cinzel sans-serif;
+            color: gray;
+            cursor: pointer;
+            transition: .4s;
+            &:hover {
+                color: rgba(7, 114, 255, 0.975);
+            }
+        }
+        @media screen and (max-width: 1200px) {
+            p{
+               font-size: 16px;
+            }
+          }
+        hr {
+            width: 100%;
+            margin-top: 100px;
+            border: 1px solid rgb(103, 102, 102);
+        }
+        .sp1 {
+            padding-left: 290px;
+        }
+        @media screen and (max-width: 1400px) {
+            .sp1 {
+                padding-left: 200px;
+            }
+          }
+          @media screen and (max-width: 1350px) {
+            .sp1 {
+                padding-left: 170px;
+            }
+          }
+          @media screen and (max-width: 1020px){
+              .sp1 {
+                padding-left: 148px;
+            }
+        }
+          @media screen and (max-width: 999px) {
+            .sp1 {
+                padding-left: 81%;
+            }
+          }
+          @media screen and (max-width: 800px) {
+            .sp1 {
+                padding-left: 70%;
+            }
+          }
+          @media screen and (max-width: 500px) {
+            .sp1 {
+                padding-left: 65%;
+            }
+          }
+          @media screen and (max-width: 450px) {
+            .sp1 {
+                padding-left: 55%;
+            }
+          }
+          @media screen and (max-width: 400px) {
+            .sp1 {
+                padding-left: 42%;
+            }
+          }
+    }
+   }
+   @media screen and (max-width: 1400px) {
+    #biblesec {
+        padding: 45px;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    #biblesec {
+        padding: 40px;
+    }
+  }
+  @media screen and (max-width: 900px) {
+    #biblesec {
+        padding: 35px;
+    }
+  }
+  @media screen and (max-width: 700px) {
+    #biblesec {
+        padding: 30px;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    #biblesec {
+        padding: 25px;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    #biblesec {
+        padding: 20px;
+    }
+  }
+    h1 {
+        font-size: 50px;
+    }
+    @media screen and (max-width: 1400px) {
+        h1 {
+            font-size: 45px;
+        }
+      }
+      @media screen and (max-width: 1200px) {
+        h1 {
+            font-size: 40px;
+        }
+      }
+      @media screen and (max-width: 900px) {
+        h1 {
+            font-size: 35px;
+        }
+      }
+      @media screen and (max-width: 700px) {
+        h1 {
+            font-size: 25px;
+        }
+      }
+    .firstp {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1.5;
+        font-family: cinzel sans-serif;
+        color: rgb(111, 109, 109);
+    }
+    @media screen and (max-width: 400px) {
+        .firstp {
+            font-size: 12px;
+        }
+      }
+    footer {
+        #nav6 {
+            padding-top: 3%;
+            padding-left: 3%;
+            background-color: $biblecolor;
+           ul {
+            padding-left: 10%;
+            li {
+                padding-left: 35px;
+            }
+            a {
+                color: #fff;
+                transition: 0.4s;
+                &:hover{
+                    color:rgb(38, 120, 201) ;
+                }
+            }
+            @media screen and (max-width: 992px) {
+              li {
+                  padding-left: 0;
+              }
+            }
+         }
+         .iconli {
+          padding-left: 200px;
+       }
+       @media screen and (max-width: 992px) {
+         .iconli {
+               padding-left: 0;
+           }
+         }
+         @media screen and (max-width: 992px) {
+          ul {
+              padding-left: 0;
+          }
+        }
+       }
+    }
+}
